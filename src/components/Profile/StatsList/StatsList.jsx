@@ -1,6 +1,6 @@
 import StatsListItem from './StatsListItem';
 
-import css from "./statslist.module.css"
+import css from './statslist.module.css';
 
 const StatsList = ({ stats }) => {
   const elements = Object.entries(stats);
@@ -10,5 +10,4 @@ const StatsList = ({ stats }) => {
   return <ul className={css.stats}>{items}</ul>;
 };
 
-export default StatsList;  
-
+export default StatsList;

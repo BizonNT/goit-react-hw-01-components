@@ -1,4 +1,4 @@
-import { makeFirstLetterToUpperCase } from '../../helpers/makeFirstLetterToUpperCase';
+import { makeFirstLetterToUpperCase } from 'components/helpers/makeFirstLetterToUpperCase';
 
 import css from './transactionitem.module.css';
 

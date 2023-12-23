@@ -1,6 +1,6 @@
-import { getRandomHexColor } from "../../helpers/getRandomColor";
+import { getRandomHexColor } from 'components/helpers/getRandomColor';
 
-import css from "./statlist.module.css"
+import css from './statlist.module.css';
 
 const StatListItem = ({ label, percentage, length }) => {
   let colorValue = getRandomHexColor();
@@ -14,6 +14,6 @@ const StatListItem = ({ label, percentage, length }) => {
       <span className={css.percentage}>{percentage}%</span>
     </li>
   );
-}
+};
 
 export default StatListItem;

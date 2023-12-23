@@ -1,6 +1,6 @@
-import { makeFirstLetterToUpperCase } from "../../helpers/makeFirstLetterToUpperCase";
+import { makeFirstLetterToUpperCase } from 'components/helpers/makeFirstLetterToUpperCase';
 
-import css from "./statslist.module.css"
+import css from './statslist.module.css';
 
 const StatsListItem = ({ name, value }) => {
   return (

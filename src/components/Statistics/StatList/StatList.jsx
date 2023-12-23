@@ -7,11 +7,7 @@ const StatList = ({ stats }) => {
   const elements = stats.map(({ id, ...other }) => (
     <StatListItem key={id} {...other} length={lengthValue} />
   ));
-  return (
-    <ul className={css.statlist}>
-      {elements}
-    </ul>
-  );
+  return <ul className={css.statlist}>{elements}</ul>;
 };
 
 export default StatList;
