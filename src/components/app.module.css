@@ -1,11 +1,9 @@
-/* .divan {
-  height: '100vh';
-  display: 'flex';
-  justify-content: 'center';
-  align-items: 'center';
-  font-size: 40;
-  color: '#010101';
-} */
+.container {
+  position: relative;
+  max-width: 800px;
+  padding: 20px 5px;
+  margin: 0 auto;
+}
 
 
 

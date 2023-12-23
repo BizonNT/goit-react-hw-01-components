@@ -7,8 +7,8 @@ const StatsList = ({ stats }) => {
   const items = elements.map(element => (
     <StatsListItem key={element[0]} name={element[0]} value={element[1]} />
   ));
-
   return <ul className={css.stats}>{items}</ul>;
 };
 
-export default StatsList;
+export default StatsList;  
+

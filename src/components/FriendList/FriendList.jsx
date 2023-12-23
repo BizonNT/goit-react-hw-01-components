@@ -5,7 +5,11 @@ const FriendList = ({ friends }) => {
   const elements = friends.map(({ id, ...friend }) => (
     <FriendListItem key={id} {...friend} />
   ));
-  return <ul className={css.friendlist}>{elements}</ul>;
+  return (
+    <section className={css.list}>
+      <ul className={css['friend-list']}>{elements}</ul>
+    </section>
+  );
 };
 
 export default FriendList;

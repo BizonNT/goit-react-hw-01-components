@@ -1,18 +1,27 @@
-.row{
-text-align: center;
+.row {
+  text-align: center;
 }
 
 .row:nth-child(2n) {
-  background-color: lemonchiffon;
+  background-color: #ffffff;
 }
-.row:nth-child(2n+1) {
-  background-color: lightcyan;
+.row:nth-child(2n + 1) {
+  background-color: #f2f2f2;
 }
 
-
-.text{
+.textleft {
+  padding: 10px 80px;
+  text-align: left;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.11;
-  color: lightslategray;
+  color: #9e9e9e;
+}
+
+.text {
+  padding: 10px 80px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #9e9e9e;
 }

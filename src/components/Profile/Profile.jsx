@@ -2,17 +2,17 @@ import StatsList from './StatsList/StatsList';
 
 import css from './profile.module.css';
 
-const Profile = ({ avatar, username, tag, location, stats }) => {
+const Profile = ({ user }) => {
   return (
-    <div className={css.profile}>
+    <section className={css.profile}>
       <div className={css.description}>
-        <img src={avatar} alt="User avatar" className={css.avatar} />
-        <p className={css.name}>{username}</p>
-        <p className={css.tag}>@{tag}</p>
-        <p className={css.location}>{location}</p>
-        <StatsList stats={stats} />
+        <img src={user.avatar} alt="User avatar" className={css.avatar} />
+        <p className={css.name}>{user.username}</p>
+        <p className={css.tag}>@{user.tag}</p>
+        <p className={css.location}>{user.location}</p>
+        <StatsList stats={user.stats} />
       </div>
-    </div>
+    </section>
   );
 };
 

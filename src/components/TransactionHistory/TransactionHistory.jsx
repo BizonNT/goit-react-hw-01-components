@@ -7,17 +7,19 @@ const TransactionHistory = ({ items }) => {
     <TransactionItem key={id} {...other} />
   ));
   return (
-    <table className={css.transactionHistory}>
-      <thead className={css.tableHead}>
-        <tr className={css.head}>
-          <th className={css.headText}>Type</th>
-          <th className={css.headText}>Amount</th>
-          <th className={css.headText}>Currency</th>
-        </tr>
-      </thead>
+    <section className={css.container}>
+      <table className={css['transaction-history']}>
+        <thead className={css.head}>
+          <tr>
+            <th className={css.text}>Type</th>
+            <th className={css.text}>Amount</th>
+            <th className={css.text}>Currency</th>
+          </tr>
+        </thead>
 
-      <tbody>{elements}</tbody>
-    </table>
+        <tbody>{elements}</tbody>
+      </table>
+    </section>
   );
 };
 
