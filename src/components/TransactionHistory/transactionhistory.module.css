@@ -10,17 +10,18 @@
 
 .tableHead {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   text-transform: uppercase;
   color: whitesmoke;
   background-color: deepskyblue;
   padding: 10px 5px;
   border-color: 1px solid lightgrey;
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
 }
 
 .head {
+  font-size: 18px;
 }
 
 .headText {
